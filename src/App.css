@@ -1,0 +1,35 @@
+body {
+    overflow:hidden;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid black;
+  width: 400px;
+  margin: 0px auto;  
+  /*padding: 5px;*/
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.App-header {    
+  height: 30px;
+  width: 100%;  
+  display: table;
+  border: 1px solid black;  
+}
+
+.App-header-link {
+  display: table-cell;
+  width: 20px;
+  border: 1px solid black;
+  vertical-align: middle;  
+}
+
+.App-header-caption {
+  display: table-cell;  
+  border: 1px solid black;  
+  vertical-align: middle; 
+}
+
